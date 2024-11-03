@@ -9,10 +9,14 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import org.hugo.ejercicioq.Temporizador?>
 <?import javafx.scene.layout.VBox?>
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <FlowPane prefHeight="100.0" />
+        <FlowPane alignment="BOTTOM_RIGHT">
+            <children>
+                <Temporizador fx:id="temporizador" />
+            </children></FlowPane>
         <TabPane tabClosingPolicy="UNAVAILABLE">
             <tabs>
                 <Tab text="CUESTIONARIO  1">
@@ -61,7 +65,7 @@
                                 </GridPane>
                                 <FlowPane alignment="CENTER">
                                     <children>
-                                        <Button fx:id="btnEnviar1" mnemonicParsing="false" text="Enviar" />
+                                        <Button fx:id="btnEnviar1" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
                                     </children>
                                     <VBox.margin>
                                         <Insets bottom="5.0" top="20.0" />
@@ -117,7 +121,7 @@
                                 </GridPane>
                                 <FlowPane alignment="CENTER">
                                     <children>
-                                        <Button fx:id="btnEnviar2" mnemonicParsing="false" text="Enviar" />
+                                        <Button fx:id="btnEnviar2" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
                                     </children>
                                     <VBox.margin>
                                         <Insets bottom="5.0" top="20.0" />
