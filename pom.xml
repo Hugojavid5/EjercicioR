@@ -16,7 +16,7 @@
   <dependencies>
     <dependency>
       <groupId>org.hugo</groupId>
-      <artifactId>ejercicioq</artifactId>
+      <artifactId>EjercicioQ</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
