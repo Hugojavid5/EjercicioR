@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import org.hugo.ejercicioq.Temporizador?>
 <?import javafx.scene.layout.VBox?>
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.hugo.ejercicior.FormularioController">
     <children>
         <FlowPane alignment="BOTTOM_RIGHT">
             <children>
